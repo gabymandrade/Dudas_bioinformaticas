@@ -1,0 +1,15 @@
+Basado en este link https://stackoverflow.com/questions/34272309/extract-shapefile-value-to-point-with-r
+Tengo que extraer puntos (muestras) para ver en que provincia biogeográfica se encuentran (o también llamadas capas)
+
+
+Tengo este código:
+
+biogeographicregions <- SpatialPoints(cbind(29.57100, -110.00200), 
+                     proj4string = CRS(proj4string(mapregio)))
+
+biogeographicregions
+
+Resultado: class       : SpatialPoints 
+features    : 1 
+extent      : 29.571, 29.571, -110.002, -110.002  (xmin, xmax, ymin, ymax)
+crs         : NA 
