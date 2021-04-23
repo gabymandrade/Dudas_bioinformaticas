@@ -1,6 +1,0 @@
-Quiero hacer un PCA con eigenvectores y eigenvalores dados por PLINK con mis muestras filtradas. Yo solo tengo las columnas de muestra y población 
-pero quiero agregar las columnas de Estado  y Provinvia Biogeográfica.
-
-<https://dplyr.tidyverse.org/reference/join.html>
-
-Con la función `left_join()`
