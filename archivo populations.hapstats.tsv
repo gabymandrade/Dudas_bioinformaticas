@@ -1,0 +1,18 @@
+Con base en el archivo populations.haptstats.tsv, tomar los loci que están fuera de HWE equilibrium y escribirlos a un archivo
+que se llame "blacklisted". Llamarlo después con populations.
+
+Hacer un script de R que pueda hacer la operación de seleccionar los loci fuera de HWE y escribirlos a un archivo.
+Para esto ocupar el paquete dyplyr en R y la función filter(). Para leer los datos a R necesitarás usar el parámetro skip en read.csv
+
+
+Mi archivo populations.haptstats.tsv pesa 536.9 MB
+
+
+Con R:
+
+```filterhwe <- read.table (file="../data/populations.hapstats.tsv", sep="\t",header = FALSE)```
+
+
+<img width="822" alt="<img width="822" alt="Captura de Pantalla 2021-02-22 a la(s) 22 50 07">
+
+
